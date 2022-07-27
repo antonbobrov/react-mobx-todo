@@ -1,0 +1,14 @@
+{
+  "extends": [
+      "airbnb",
+      "airbnb/hooks",
+      "airbnb-typescript"
+  ],
+  "parserOptions": {
+      "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "no-underscore-dangle": ["error", { "allowAfterThisConstructor": true, "allowAfterThis": true }]
+  }
+}
